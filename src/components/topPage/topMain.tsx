@@ -16,11 +16,11 @@ const useStyle = makeStyles(() =>
       position: "relative",
       marginLeft: "auto",
       marginRight: "auto",
-      top: "33%",
+      top: "30vh",
       width: "45%",
     },
     inputbase: {
-      width: "80%",
+      width: "90%",
     },
     
   }),

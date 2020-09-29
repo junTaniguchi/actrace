@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './App.css';
-import './pages';
-
+import TopPage from './pages/topPage';
+//import ResultPage from './pages/resultPage'
 function App() {
   return (
     <div className="App">
-      <topPage />
-      <resultPage />
+      <TopPage />
+      
     </div>
   );
 }

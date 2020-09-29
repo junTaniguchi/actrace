@@ -19,11 +19,11 @@ const TopPage: FC = () => {
           </Route>
           <Route path="/search/:keyword" exact>
             <SearchBar />
-            <ResultPage />
+            
           </Route>
           <Route path="/download/:keyword" exact>
             <SearchBar />
-            <DownloadPage />
+
           </Route>
         </Switch>
       </Router>
